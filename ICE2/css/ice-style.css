@@ -43,6 +43,7 @@ nav ul li a {
 #content {
   overflow: hidden;
   margin: auto;
+  height: 400px;
 }
 
 #content div {
@@ -62,11 +63,12 @@ nav ul li a {
 aside {
   float: right;
   width: 20%;
+  height: 400px;
   background-color: white;
   background-image: url(http://www.literarygenius.info/images/william-shakespeare.jpg);
   background-repeat: no-repeat;
-  background-size: 75%;
-  background-position: center center;
+  background-size: 80%;
+  background-position: center;
 }
 
 footer {
