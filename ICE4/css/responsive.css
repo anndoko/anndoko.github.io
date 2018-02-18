@@ -9,6 +9,7 @@
     text-align: center;
   }
 
+  /* MAIN CONTENT */
   /* change display & the top border */
   .top-nav ul li {
     display: inline-block;
@@ -36,5 +37,16 @@
 }
 
 @media only screen and (min-width:1000px){
+  /* NAVIGATION */
+  .top-nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
 
+  .top-nav ul li {
+    display: inline-block;
+    border-top: none;
+  }
+  /* MAIN CONTENT */
 }
