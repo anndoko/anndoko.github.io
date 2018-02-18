@@ -14,6 +14,25 @@
     display: inline-block;
     border-top: 1.5px solid red;
   }
+
+  /* use grid to fix the layout */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo-cell {
+    grid-column: 1 / span 2;
+    padding: 0px;
+  }
+
+  .yellow {
+    grid-column: 1 / 2;
+  }
+
+  .navy {
+    grid-column: 2 / 2;
+  }
 }
 
 @media only screen and (min-width:1000px){
