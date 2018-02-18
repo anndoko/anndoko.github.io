@@ -49,4 +49,22 @@
     border-top: none;
   }
   /* MAIN CONTENT */
+  /* use grid to fix the layout */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .photo-cell {
+    grid-column: span 2;
+    padding: 0px;
+  }
+
+  .yellow {
+    grid-column: 1 / 2;
+  }
+
+  .navy {
+    grid-column: 2 / 2;
+  }
 }
