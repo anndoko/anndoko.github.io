@@ -22,19 +22,19 @@
 			var n_msg = document.getElementById("nameerrormsg");
 			var a_msg = document.getElementById("addrerrormsg");
 
-			if (n.value.length == 0){
+			if (!n.value){
 				n_msg.style.display = "block";
 			} else {
 				n_msg.style.display = "none";
 			}
 
-			if (a.value.length == 0){
+			if (!a.value){
 				a_msg.style.display = "block";
 			} else {
 				a_msg.style.display = "none";
 			}
 
-			if (n.value.length == 0 || a.value.length == 0){
+			if (!n.value || !a.value){
 				return false;
 			}
     }
