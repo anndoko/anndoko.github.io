@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- Step 1: Adding a function template
-Add a JavaScript function to your page called setHomeAddress() that simply displays an alert, ie. window.alert("Yep, my function is being called");	Add an event so that when the checkbox is clicked your function is called and test that it works!
+Add a JavaScript function to your page called setHomeAddress() that simply displays an alert, ie. window.alert("Yep, my function is being called");  Add an event so that when the checkbox is clicked your function is called and test that it works!
 
 Step 2: Getting the Postal Address
-Before we can copy the address over, we need to know how to read it using JavaScript.	Use the .value property of the textarea. It contains the text typed into a form field. In your setHomeAddress() function, write a line of code to display the Postal Address textarea's value in an alert box. W3Schools Textarea value page has a useful example close to what you'll write.
+Before we can copy the address over, we need to know how to read it using JavaScript.  Use the .value property of the textarea. It contains the text typed into a form field. In your setHomeAddress() function, write a line of code to display the Postal Address textarea's value in an alert box. W3Schools Textarea value page has a useful example close to what you'll write.
 
 Step 3: Setting the value for the Home Address
 Now that we know how to find the value of any element in our document, the trick is to set our "homeaddress" element's value equal to the "postaladdress" element's value. To set the homeaddress we could do something like:
@@ -20,43 +20,43 @@ Now when you test your form, you'll notice that when you un-check your checkbox,
 Add an if-else statement to your setHomeAddress() function so that when the checkbox is un-checked the Home address field is reset to empty and enabled again.-->
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Challenge Two</title>
+  <meta charset="UTF-8">
+  <title>Challenge Two</title>
 
-		<script type="text/javascript">
-			 function setHomeAddress(){
-			// YOUR CODE HERE
-			var x = document.getElementById("billing").value;
-			var y = document.getElementById("home");
-			if (document.getElementById("useBilling").checked == true){
-				y.value = x;
-				y.disabled = true;
-			} else {
-				y.value = "";
-				y.disabled = false;
-			}
-		 }
-		</script>
+    <script type="text/javascript">
+       function setHomeAddress(){
+      // YOUR CODE HERE
+      var x = document.getElementById("billing").value;
+      var y = document.getElementById("home");
+      if (document.getElementById("useBilling").checked == true){
+        y.value = x;
+        y.disabled = true;
+      } else {
+        y.value = "";
+        y.disabled = false;
+      }
+     }
+    </script>
 </head>
 <body>
-		<h1>Challenge Two</h1>
-		<form action="challenge3.html">
-			<fieldset>
-				<legend>Billing Information</legend>
-				<div>
-					<label for ="billing">Billing Address:</label><br>
-					<textarea name="billingAdd" id="billing"></textarea>
-					</label>
-				</div>
+    <h1>Challenge Two</h1>
+    <form action="challenge3.html">
+      <fieldset>
+        <legend>Billing Information</legend>
+        <div>
+          <label for ="billing">Billing Address:</label><br>
+          <textarea name="billingAdd" id="billing"></textarea>
+          </label>
+        </div>
 
-				<div>
-					<label for ="home">Home Address:</label><br>
-					<input type="checkbox" name="useBilling" onclick = "setHomeAddress()" id="useBilling"> Same as above
-					</label>
-				<br>
-				<textarea name="homeAdd" id="home"></textarea>
-				</div>
-				<input type = "submit" value = "Go To Challenge 3">
-			</fieldset>
+        <div>
+          <label for ="home">Home Address:</label><br>
+          <input type="checkbox" name="useBilling" onclick = "setHomeAddress()" id="useBilling"> Same as above
+          </label>
+        <br>
+        <textarea name="homeAdd" id="home"></textarea>
+        </div>
+        <input type = "submit" value = "Go To Challenge 3">
+      </fieldset>
 </body>
 </html>
