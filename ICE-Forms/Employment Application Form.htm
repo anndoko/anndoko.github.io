@@ -25,7 +25,7 @@
 						<label> First name:<input id="name" name="name" type="text" placeholder="First name" required autofocus></label>
 					</div>
 					<div class="form-group mx-sm-3 mb-2">
-						<label for="lname"> Last name: </label><input id="name" name="lname" type="text" placeholder="Last name" required autofocus>
+						<label for="lname"> Last name: <input id="name" name="lname" type="text" placeholder="Last name" required autofocus></label>
 					</div>
 				</div>
 
@@ -49,7 +49,8 @@
 				<legend>Contact Information:</legend>
 				<label>Phone number:<input type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd"></label>
 
-				<label>Country of Citizenship: <select id="country" class="bfh-countries" data-country="US" required></select></label>
+				<label>Country of Citizenship:
+				<select id="country" class="bfh-countries form-control form-control-sm" data-country="US" required></select></label>
 
 				<label> Address: <input type="text" id="address" name="address" placeholder = "1234 N Wells St" required autofocus></label>
 				<label> City: <input type="text" name="city"  placeholder = "Ann Arbor" required autofocus></label>
@@ -66,7 +67,7 @@
 
 
 				<label> Degree:
-				  <select name="degree">
+				  <select class="form-control form-control-sm" name="degree">
 						<option value="High school">High school</option>
 						<option value="BS">B.S</option>
 						<option value="BA">B.A</option>
@@ -77,11 +78,11 @@
 				  </select>
 				</label>
 
-			  <label> Institution name: <input type="text" name="inst_name" placeholder = "University of Michigan"></label><br>
+			  <label> Institution name: <input type="text" name="inst_name" placeholder = "University of Michigan"></label>
 
-			  <label> Major: <input type="text" name="Major" placeholder = "Information System"></label><br>
+			  <label> Major: <input type="text" name="Major" placeholder = "Information System"></label>
 
-			  <label> GPA: <input type="number" step="any" name="GPA" min="0" max="4"></label> /4.0<br>
+			  <label> GPA: <input type="number" step="any" name="GPA" min="0" max="4"></label> /4.0
 
 				<button id="addDegree"> Add degree </button>
 			</div>
@@ -116,9 +117,14 @@
 
 		<fieldset>
 			<div class="form-group">
-				<legend>Resume and Cover Letter:</legend>
-				<label>Upload Resume: *<input type="file" name="resume" accept="application/pdf"></label>
-				<label>Upload Cover Letter: <input type="file" name="coverletter" accept="application/pdf"></label>
+				<legend>Resume/Cover Letter:</legend>
+
+				<label>Upload Resume: *</label>
+				<input class="form-control form-control-sm" type="file" name="resume" accept="application/pdf">
+
+				<label>Upload Cover Letter:</label>
+				<input class="form-control form-control-sm" type="file" name="coverletter" accept="application/pdf">
+
 			</div>
 		</fieldset>
 
@@ -126,7 +132,7 @@
 			<div class="form-group">
 				<legend>Position:</legend>
 				<label>Which position are you interested in applying:
-				<select name="position">
+				<select class="form-control form-control-sm" name="position">
 					<optgroup label="Information Technology">
 						<option>Network Engineer</option>
 					</optgroup>
