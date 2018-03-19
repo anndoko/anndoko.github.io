@@ -1,0 +1,33 @@
+/* GENERAL APPEARANCE */
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eeeeee;
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 5%;
+	font-size: 20px;
+}
+
+fieldset{
+	background-color:#ffffff;
+	padding:5%;
+  margin: 20px;
+}
+
+label{
+	display: inline-block;
+	padding:.5%;
+}
+
+input{
+	display: inline-block;
+	padding:.5%;
+}
+
+input textarea select{
+	padding:20px;
+}
