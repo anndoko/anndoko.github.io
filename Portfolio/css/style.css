@@ -34,3 +34,7 @@ section {
   margin-top: 20px;
   border-style: none;
 }
+
+.mv-box iframe {
+  margin-bottom: 50px;
+}
