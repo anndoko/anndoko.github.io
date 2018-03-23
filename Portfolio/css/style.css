@@ -11,6 +11,18 @@ header, footer{
   padding: 0;
 }
 
+
+/* ===== Homepage =====  */
+/* hero images */
+.carousel-control span {
+  margin-top: 150%;
+  font-size: 50px;
+}
+
+.item {
+  max-height: 500px;
+}
+
 /* section - common */
 section {
   text-align: center;
