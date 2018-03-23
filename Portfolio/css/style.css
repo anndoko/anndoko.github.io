@@ -2,15 +2,13 @@
   margin: 0;
 }
 
-/* ===== Homepage =====  */
-/* hero images */
-.carousel-control span {
-  margin-top: 150%;
-  font-size: 50px;
-}
-
-.item {
-  max-height: 500px;
+/* ===== Header / Footer =====  */
+header, footer{
+  color: white;
+  background-color: black;
+  height: 80px;
+  margin: 0;
+  padding: 0;
 }
 
 /* section - common */
