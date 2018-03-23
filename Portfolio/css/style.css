@@ -2,20 +2,32 @@
   margin: 0;
 }
 
+/* ===== Homepage =====  */
+/* hero images */
 .carousel-control span {
   margin-top: 155%;
   font-size: 50px;
+}
+
+/* section - common */
+section {
+  text-align: center;
+  margin: 10% 50px;
 }
 
 .section-title {
   margin-bottom: 50px;
 }
 
-section {
-  text-align: center;
-  margin: 10% 50px;
+.homepage-button {
+  color: white;
+  background-color: black;
+  padding: 10px 50px;
+  margin-top: 20px;
+  border-style: none;
 }
 
+/* sections */
 .albums-box img {
   width: 100%;
   max-width: 500px;
@@ -25,14 +37,6 @@ section {
   border: 1px;
   border-color: #DCDCDC;
   border-style: dotted;
-}
-
-.homepage-button {
-  color: white;
-  background-color: black;
-  padding: 10px 50px;
-  margin-top: 20px;
-  border-style: none;
 }
 
 .mv-box iframe {
