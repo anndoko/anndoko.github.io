@@ -5,14 +5,18 @@
 /* ===== Homepage =====  */
 /* hero images */
 .carousel-control span {
-  margin-top: 160%;
+  margin-top: 150%;
   font-size: 50px;
+}
+
+.item {
+  max-height: 500px;
 }
 
 /* section - common */
 section {
   text-align: center;
-  margin: 10% 50px;
+  margin: 80px 50px;
 }
 
 .section-title {
@@ -41,4 +45,5 @@ section {
 
 .mv-box iframe {
   margin-bottom: 50px;
+
 }
