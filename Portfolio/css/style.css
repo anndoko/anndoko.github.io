@@ -17,6 +17,20 @@ section {
 }
 
 .albums-box img {
-  width: 90%;
-  margin: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0px auto 50px auto;
+
+  padding: 8px;
+  border: 1px;
+  border-color: #DCDCDC;
+  border-style: dotted;
+}
+
+.homepage-button {
+  color: white;
+  background-color: black;
+  padding: 10px 50px;
+  margin-top: 20px;
+  border-style: none;
 }
