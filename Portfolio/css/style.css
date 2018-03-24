@@ -55,5 +55,5 @@ section {
 
 .mv-box iframe {
   margin-bottom: 50px;
-
+  max-width: 100%;
 }
