@@ -12,6 +12,7 @@ header, footer{
 }
 
 
+
 /* ===== Homepage =====  */
 /* hero images */
 .carousel-control span {
@@ -30,6 +31,7 @@ section {
 }
 
 .section-title {
+  font-family: 'Roboto Condensed', sans-serif;
   margin-bottom: 50px;
 }
 
