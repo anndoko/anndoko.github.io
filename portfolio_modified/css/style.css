@@ -16,12 +16,6 @@ header {
   text-align: center;
 }
 
-.header-img {
-  height: 50px;
-  width: 50px;
-  margin: 10px;
-}
-
 /* navigation */
 .navbar-brand {
   font-family: 'Bitter' !important;
@@ -56,14 +50,6 @@ header {
 
 
 /* footer */
-.footer-box {
-  margin-top: 50px;
-  min-height: 300px;
-  max-height: 350px;
-  background-image: url(https://i.imgur.com/Qe59OeL.jpg);
-  background-size: 100%;
-}
-
 .footer-content-box {
   display: inline-block;
   padding: 30px 50px;
@@ -99,26 +85,77 @@ footer a:hover {
 }
 
 
-.top-album {
-  max-width: 300px;
-  max-width: 300px;
+/* music */
+.music p {
+  margin: 30px 20%;
+}
+
+.album-covers img {
+  margin: 20px auto;
 }
 
 /* media query */
 @media only screen and (max-width:650px){
+
+  h2, h3 {
+    font-size: 28px !important;
+  }
   p {
     font-size: 14px;
   }
+
+  .header-img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+
+  .footer-box {
+    margin-top: 50px;
+    min-height: 300px;
+    max-height: 350px;
+    background-image: url(https://i.imgur.com/Qe59OeL.jpg);
+    background-size: 150%;
+  }
+
 }
 
 @media only screen and (min-width:650px) and (max-width:1000px){
   p {
     font-size: 16px;
   }
+
+  .header-img {
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+  }
+
+  .footer-box {
+    margin-top: 50px;
+    min-height: 300px;
+    max-height: 350px;
+    background-image: url(https://i.imgur.com/Qe59OeL.jpg);
+    background-size: 70%;
+  }
 }
 
 @media only screen and (min-width:1000px){
   p {
     font-size: 16px;
+  }
+
+  .header-img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+  }
+
+  .footer-box {
+    margin-top: 50px;
+    min-height: 300px;
+    max-height: 350px;
+    background-image: url(https://i.imgur.com/Qe59OeL.jpg);
+    background-size: 100%;
   }
 }
