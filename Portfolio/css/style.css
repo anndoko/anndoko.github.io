@@ -1,61 +1,219 @@
+/* universal */
 * {
   margin: 0;
 }
 
-/* ===== Header / Footer =====  */
-header, footer{
+section {
+  margin: 100px 0px;
+}
+
+h2, h3 {
+  font-family: 'Abril Fatface' !important;
+  color: #e53238 !important;
+  margin: 30px auto 15px auto !important;
+  text-align: center;
+}
+
+/* header */
+header {
+  background-color: #F8FAFA;
+  text-align: center;
+}
+
+/* navigation */
+.navbar-brand {
+  font-family: 'Bitter' !important;
+  font-weight: bold;
+}
+
+.active a {
+  font-family: 'Bitter' !important;
+  font-weight: bold;
+  color: #e53238 !important;
+}
+
+ .nav-link {
+  font-family: 'Bitter' !important;
+  padding-right: 2rem !important;
+}
+
+
+/* quotes */
+.card {
+  margin: auto 10%;
+  border-radius: 30px;
+}
+
+.blockquote {
+  font-style: italic;
+}
+
+.blockquote-footer {
+  font-style: normal;
+}
+
+
+/* footer */
+.footer-content-box {
+  display: inline-block;
+  padding: 30px 50px;
   color: white;
-  background-color: black;
-  height: 80px;
-  margin: 0;
-  padding: 0;
+  background-color: grey;
+  opacity: 0.9;
+  margin: 50px auto 50px auto;
+}
+
+.sm-icon {
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+}
+
+.footer-heading {
+  font-family: 'Bitter';
+  font-size: 20px;
+  color: black;
+  text-align: center;
 }
 
 
-
-/* ===== Homepage =====  */
-/* hero images */
-.carousel-control span {
-  margin-top: 150%;
-  font-size: 50px;
+/* =====home.html===== */
+.quotes-box p {
+  margin: 30px 20%;
 }
 
-.item {
+/* =====about.html===== */
+.profile-pic {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 250px;
+  width: 250px;
+}
+
+.resume-btn {
+  margin: 10px auto;
+  padding: 10px 30px;
+  border: solid 1px #e53238;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.resume-btn a {
+  text-decoration: none;
+  background-color: none;
+  color: #e53238;
+}
+
+.resume-btn a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: #e53238;
+}
+
+.about-sec p {
+  margin: 30px 10%;
+  text-align: left;
+}
+
+.interest p {
+  text-align: left;
+  margin: auto;
+}
+
+
+/* =====music.html===== */
+.music p {
+  margin: 30px 20%;
+}
+
+.album-covers img {
+  margin: 20px auto;
+}
+
+.concerts p {
+  margin: 30px 20%;
+}
+
+.concert-pics img {
+  margin: 20px auto;
+  max-width: 500px;
   max-height: 500px;
 }
 
-/* section - common */
-section {
-  text-align: center;
-  margin: 80px 50px;
+/* media query */
+@media only screen and (max-width:650px){
+
+  h2, h3 {
+    font-size: 28px !important;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  .header-img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  }
+
+  .footer-box {
+    margin-top: 50px;
+    min-height: 300px;
+    max-height: 350px;
+    background-image: url(https://i.imgur.com/Qe59OeL.jpg);
+    background-size: 150%;
+  }
+
 }
 
-.section-title {
-  font-family: 'Roboto Condensed', sans-serif;
-  margin-bottom: 50px;
+@media only screen and (min-width:650px) and (max-width:1000px){
+  p {
+    font-size: 16px;
+  }
+
+  .header-img {
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+  }
+
+  .footer-box {
+    margin-top: 50px;
+    min-height: 300px;
+    max-height: 350px;
+    background-image: url(https://i.imgur.com/Qe59OeL.jpg);
+    background-size: 70%;
+  }
 }
 
-.homepage-button {
-  color: white;
-  background-color: black;
-  padding: 10px 50px;
-  margin-top: 20px;
-  border-style: none;
-}
+@media only screen and (min-width:1000px){
+  p {
+    font-size: 16px;
+  }
 
-/* sections */
-.albums-box img {
-  width: 100%;
-  max-width: 500px;
-  margin: 0px auto 50px auto;
+  .header-img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+  }
 
-  padding: 8px;
-  border: 1px;
-  border-color: #DCDCDC;
-  border-style: dotted;
-}
-
-.mv-box iframe {
-  margin-bottom: 50px;
-  max-width: 100%;
+  .footer-box {
+    margin-top: 50px;
+    min-height: 300px;
+    max-height: 350px;
+    background-image: url(https://i.imgur.com/Qe59OeL.jpg);
+    background-size: 100%;
+  }
 }
