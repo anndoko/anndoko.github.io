@@ -1,20 +1,6 @@
+/* universal */
 * {
   margin: 0;
-}
-
-header {
-  background-color: #F8FAFA;
-  text-align: center;
-}
-
-.navbar-brand {
-  font-family: 'Abril Fatface' !important;
-}
-
-.header-img {
-  height: 50px;
-  width: 50px;
-  margin: 10px;
 }
 
 h2, h3 {
@@ -24,12 +10,35 @@ h2, h3 {
   text-align: center;
 }
 
-/* navigation */
-.nav-link .active {
-  border-bottom: solid 2px #000000;
-  display: inline;
-  padding-bottom: 3px;
+/* header */
+header {
+  background-color: #F8FAFA;
+  text-align: center;
 }
+
+.header-img {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+/* navigation */
+.navbar-brand {
+  font-family: 'Bitter' !important;
+  font-weight: bold;
+}
+
+.active a {
+  font-family: 'Bitter' !important;
+  font-weight: bold;
+  color: #e53238 !important;
+}
+
+ .nav-link {
+  font-family: 'Bitter' !important;
+  padding-right: 2rem !important;
+}
+
 
 /* quotes */
 .card {
@@ -89,8 +98,6 @@ footer a:hover {
   text-align: center;
 }
 
-.sub-section {
-}
 
 .top-album {
   max-width: 300px;
@@ -106,9 +113,12 @@ footer a:hover {
 
 @media only screen and (min-width:650px) and (max-width:1000px){
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media only screen and (min-width:1000px){
+  p {
+    font-size: 16px;
+  }
 }
