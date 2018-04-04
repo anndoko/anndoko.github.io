@@ -34,23 +34,43 @@ h2, h3 {
 /* footer */
 .footer-box {
   margin-top: 50px;
-  min-height: 200px;
-  max-height: 250px;
-  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url(https://i.imgur.com/Qe59OeL.jpg);
+  min-height: 300px;
+  max-height: 350px;
+  background-image: url(https://i.imgur.com/Qe59OeL.jpg);
   background-size: 100%;
 }
 
 .footer-content-box {
-  background-color: black;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 30px 50px;
   color: white;
-  margin: 20px auto;
+  background-color: grey;
+  opacity: 0.9;
+  margin: 50px auto 50px auto;
+}
+
+.sm-icon {
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: white;
 }
 
 .footer-heading {
-  font-family: 'Abril Fatface';
-  font-size: 16px;
+  font-family: 'Bitter';
+  font-size: 20px;
+  color: black;
   text-align: center;
 }
 
@@ -62,7 +82,7 @@ h2, h3 {
   max-width: 300px;
 }
 
-
+/* media query */
 @media only screen and (max-width:650px){
   p {
     font-size: 14px;
