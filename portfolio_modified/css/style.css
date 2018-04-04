@@ -10,10 +10,35 @@ h2, h3 {
 }
 
 .top-album {
-  min-width: 500px;
-  min-width: 500px;
+  max-width: 300px;
+  max-width: 300px;
 }
 
 .card {
   margin: auto 10%;
+  border-radius: 30px;
+}
+
+.blockquote {
+  font-style: italic;
+}
+
+.blockquote-footer {
+  font-style: normal;
+}
+
+
+@media only screen and (max-width:650px){
+  p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width:650px) and (max-width:1000px){
+  p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width:1000px){
 }
