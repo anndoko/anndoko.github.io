@@ -24,33 +24,41 @@
   <body>
     <!-- Header -->
     <header "header-box text-center">
-      <img class="header-img" src="img/about-photos/ak_logo.png" alt="Anndo's Personal Logo">
-    </header>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Anndo's Music Space</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="music.html">Music</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=" https://wondersquad.air2018.knowbility.org/" target="_blank">Knowbility OpenAIR Competition</a>
-          </li>
-        </ul>
+      <!-- * Accessibility * -->
+      <div class="upper_header sr-only">
+        <!-- Skip -->
+        <a href="#main">Skip to main content</a>
       </div>
-    </nav>
+
+      <!-- * Logo -->
+      <img class="header-img" src="img/about-photos/ak_logo.png" alt="Anndo's Personal Logo">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Anndo's Music Space</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item  active">
+              <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" https://wondersquad.air2018.knowbility.org/" target="_blank">Knowbility OpenAIR Competition</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -81,7 +89,7 @@
     </div>
 
     <!-- Main Content -->
-    <main>
+    <main id="main" tabindex="-1" role="main">
       <!-- Heading 1 -->
       <h1 class="sr-only">Welcome to Anndo's Music Space</h1>
       <!-- Section: Quotes -->
