@@ -4,7 +4,7 @@
 }
 
 section {
-  margin: 100px 0px; 
+  margin: 100px 0px;
 }
 
 h2, h3 {
@@ -89,6 +89,11 @@ footer a:hover {
 }
 
 
+/* =====home.html===== */
+.quotes-box p {
+  margin: 30px 20%;
+}
+
 /* =====about.html===== */
 .resume-btn {
   margin: 10px auto;
@@ -128,6 +133,16 @@ footer a:hover {
 
 .album-covers img {
   margin: 20px auto;
+}
+
+.concerts p {
+  margin: 30px 20%;
+}
+
+.concert-pics img {
+  margin: 20px auto;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 /* media query */
