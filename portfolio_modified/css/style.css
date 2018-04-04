@@ -5,15 +5,18 @@
 h2, h3 {
   font-family: 'Abril Fatface' !important;
   color: #e53238 !important;
-  margin: 30px auto 30px auto !important;
+  margin: 30px auto 15px auto !important;
   text-align: center;
 }
 
-.top-album {
-  max-width: 300px;
-  max-width: 300px;
+/* navigation */
+.nav-link .active {
+  border-bottom: solid 2px #000000;
+  display: inline;
+  padding-bottom: 3px;
 }
 
+/* quotes */
 .card {
   margin: auto 10%;
   border-radius: 30px;
@@ -25,6 +28,38 @@ h2, h3 {
 
 .blockquote-footer {
   font-style: normal;
+}
+
+
+/* footer */
+.footer-box {
+  margin-top: 50px;
+  min-height: 200px;
+  max-height: 250px;
+  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url(https://i.imgur.com/Qe59OeL.jpg);
+  background-size: 100%;
+}
+
+.footer-content-box {
+  background-color: black;
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  margin: 20px auto;
+}
+
+.footer-heading {
+  font-family: 'Abril Fatface';
+  font-size: 16px;
+  text-align: center;
+}
+
+.sub-section {
+}
+
+.top-album {
+  max-width: 300px;
+  max-width: 300px;
 }
 
 
