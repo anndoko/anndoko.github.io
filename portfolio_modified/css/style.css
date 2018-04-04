@@ -4,9 +4,16 @@
 
 h2, h3 {
   font-family: 'Abril Fatface' !important;
+  color: #e53238 !important;
+  margin: 30px auto 30px auto !important;
+  text-align: center;
 }
 
 .top-album {
   min-width: 500px;
   min-width: 500px;
+}
+
+.card {
+  margin: auto 10%;
 }
