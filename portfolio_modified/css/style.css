@@ -95,6 +95,13 @@ footer a:hover {
 }
 
 /* =====about.html===== */
+.profile-pic {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 250px;
+  width: 250px;
+}
+
 .resume-btn {
   margin: 10px auto;
   padding: 10px 30px;
