@@ -8,8 +8,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#colleen").hide();
+        });
+
+        $("#show").click(function(){
+            $("#colleen").show();
+        });
+      });
+    </script>
+
   </head>
   <body>
     <main>
@@ -19,16 +34,16 @@
       <!-- Images -->
       <div class="row">
         <!-- Image 1: Colleen -->
-        <img class="form-img col-sm-6 col-md-3" src="images/examPic.JPG" alt="Instructor Colleen and her daughters">
+        <img id="colleen" class="form-img col-sm-6 col-md-3" src="images/examPic.JPG" alt="Instructor Colleen and her daughters">
         <!-- Image 2: UMSI -->
-        <img class="form-img col-sm-6 col-md-3" src="images/UMSI-logo.jpg" alt="School of Information Logo">
+        <img id="umsi"  class="form-img col-sm-6 col-md-3" src="images/UMSI-logo.jpg" alt="School of Information Logo">
       </div>
 
       <!-- Buttons -->
       <!-- Button 1: Hide -->
-      <input type = "button" value = "Hide Image">
+      <input type = "button" id = "hide" value = "Hide Image">
       <!-- Button 2: Show -->
-      <input type = "button" value = "Show Image">
+      <input type = "button" id = "show"  value = "Show Image">
     </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
