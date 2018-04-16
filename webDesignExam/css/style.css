@@ -3,8 +3,11 @@ main {
   background: url("../images/doodles.png");
 }
 
+.images {
+  margin: 20px auto;
+}
+
 .form-img {
   border: solid 5px blue;
   padding: 5%;
-  margin: 3px;
 }
