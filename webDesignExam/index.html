@@ -17,10 +17,12 @@
       $(document).ready(function(){
         $("#hide").click(function(){
             $("#colleen").hide();
+            $("#umsi").css("margin", "0px 30%");
         });
 
         $("#show").click(function(){
             $("#colleen").show();
+            $("#umsi").css("margin", "0px auto");
         });
       });
     </script>
@@ -34,9 +36,9 @@
       <!-- Images -->
       <div class="images row">
         <!-- Image 1: Colleen -->
-        <img id="colleen" class="form-img col-sm-6 col-md-3" src="images/examPic.JPG" alt="Instructor Colleen and her daughters">
+        <img id="colleen" class="form-img col-sm-12 col-md-6" src="images/examPic.JPG" alt="Instructor Colleen and her daughters">
         <!-- Image 2: UMSI -->
-        <img id="umsi"  class="form-img col-sm-6 col-md-3" src="images/UMSI-logo.jpg" alt="School of Information Logo">
+        <img id="umsi"  class="form-img col-sm-12 col-md-6" src="images/UMSI-logo.jpg" alt="School of Information Logo">
       </div>
 
       <!-- Buttons -->
