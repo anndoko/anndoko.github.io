@@ -1,13 +1,18 @@
+*{
+  margin: 0px;
+}
+
 main {
   height: 1000px;
   background: url("../images/doodles.png");
 }
 
-.images {
-  margin: 20px auto;
-}
 
 .form-img {
   border: solid 5px blue;
   padding: 5%;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
 }
