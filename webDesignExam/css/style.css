@@ -6,4 +6,5 @@ main {
 .form-img {
   border: solid 5px blue;
   padding: 5%;
+  margin: 3px;
 }
